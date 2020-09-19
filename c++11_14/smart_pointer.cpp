@@ -55,7 +55,6 @@ void shared_ptr_test(){
     p5.reset();
     if(p5 == nullptr) cout << "p5 is nullptr" << endl;
     cout << endl;
-
 }
 
 void unique_ptr_test(){
