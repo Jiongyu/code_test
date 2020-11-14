@@ -30,7 +30,7 @@ int main()
     std::future<int> result = task.get_future();    // 在一个线程中执行 task
     std::thread(std::move(task)).detach();    
     std::cout << "Waiting..." << std::endl;
-    result.wait();
+    // result.wait();
     // 输出执行结果
     std::cout << "Done!" << std:: endl << "Result is " << result.get() << '\n';
     

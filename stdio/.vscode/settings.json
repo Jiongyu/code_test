@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.rst": "xml",
+        "stdio.h": "c",
+        "signal.h": "c"
+    }
+}
