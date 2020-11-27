@@ -55,6 +55,11 @@
         "cinttypes": "cpp",
         "utility": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "mutex": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp",
+        "stdio.h": "c",
+        "errno.h": "c"
     }
 }
