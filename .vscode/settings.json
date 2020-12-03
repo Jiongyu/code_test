@@ -60,6 +60,13 @@
         "condition_variable": "cpp",
         "future": "cpp",
         "stdio.h": "c",
-        "errno.h": "c"
+        "errno.h": "c",
+        "*.ipp": "cpp",
+        "regex": "cpp",
+        "string": "cpp",
+        "random": "cpp",
+        "asoundlib.h": "c",
+        "unistd.h": "c",
+        "string.h": "c"
     }
 }

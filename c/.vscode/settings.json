@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.rst": "xml",
+        "stdlib.h": "c",
+        "tuple": "c"
+    }
+}
