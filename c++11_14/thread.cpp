@@ -48,6 +48,8 @@ int main(int argc, char const *argv[])
     thread thread1(fun1, 10);
     thread thread2(fun2, 10);
     thread thread3(fun3, 10);
+
+    
     thread1.join();
     thread2.join();
     thread3.join();

@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
 
     // 设置采样周期
     // int frames = 4; // 高内存占用，实时好
-    int frames = 4410; 
+    int frames = 4410 / 2; 
     snd_pcm_hw_params_set_period_size_near(handle, params, (snd_pcm_uframes_t *)&frames, 0);
 
     // 获取一个周期有多少帧数据组成

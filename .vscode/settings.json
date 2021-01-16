@@ -68,5 +68,6 @@
         "asoundlib.h": "c",
         "unistd.h": "c",
         "string.h": "c"
-    }
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }

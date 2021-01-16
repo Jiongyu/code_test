@@ -1,7 +1,7 @@
 {
     "files.associations": {
         "*.rst": "xml",
-        "string": "cpp",
+        "iostream": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -42,7 +42,6 @@
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "memory": "cpp",

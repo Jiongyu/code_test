@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tan/Documents/code_exercise/code_test/gdb_test/cmakelist_test/build",
+  "command": "/usr/bin/g++-5    -g   -o CMakeFiles/cmake_test.dir/main.cpp.o -c /home/tan/Documents/code_exercise/code_test/gdb_test/cmakelist_test/main.cpp",
+  "file": "/home/tan/Documents/code_exercise/code_test/gdb_test/cmakelist_test/main.cpp"
+}
+]
