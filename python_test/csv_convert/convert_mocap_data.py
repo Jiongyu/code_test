@@ -43,27 +43,31 @@ class Convert_Mocap_Data(object):
                     with open(temp_file[i], 'r') as f:
 
                         save_file = temp_file[i].split('.')[0] + '.txt'
-                        print(save_file)
-                        reader = csv.reader(f)
-                        next(reader)
+                        if (not os.path.exists(save_file)):
+                            print(str(save_file) + " convert...")
+                            reader = csv.reader(f)
+                            next(reader)
 
-                        with open(save_file , 'w') as fw:
-                            for row in reader:
-                                # 修改时间单位
-                                time_ = self.__convert_time(int(row[0]))
-                                fw.write(str(time_) + ' ')
-                                # 修改位置单位 x, y, z
-                                temp_pos_ = self.__convert_position(float(row[4]))
-                                fw.write(str(temp_pos_) + ' ')
-                                temp_pos_ = self.__convert_position(float(row[5]))
-                                fw.write(str(temp_pos_) + ' ')
-                                temp_pos_ = self.__convert_position(float(row[6]))
-                                fw.write(str(temp_pos_) + ' ')
-                                # 转换四元数为欧拉角
-                                temp_posture_ = self.__quat_to_eular(float(row[7]),float(row[8]),float(row[9]),float(row[10]))
-                                for i in range(len(temp_posture_)):
-                                    fw.write(str(temp_posture_[i]) + ' ')
-                                fw.write('\n')
+                            with open(save_file , 'w') as fw:
+                                for row in reader:
+                                    # 修改时间单位
+                                    time_ = self.__convert_time(int(row[0]))
+                                    fw.write(str(time_) + ' ')
+                                    # 修改位置单位 x, y, z
+                                    temp_pos_ = self.__convert_position(float(row[4]))
+                                    fw.write(str(temp_pos_) + ' ')
+                                    temp_pos_ = self.__convert_position(float(row[5]))
+                                    fw.write(str(temp_pos_) + ' ')
+                                    temp_pos_ = self.__convert_position(float(row[6]))
+                                    fw.write(str(temp_pos_) + ' ')
+                                    # 转换四元数为欧拉角
+                                    temp_posture_ = self.__quat_to_eular(float(row[7]),float(row[8]),float(row[9]),float(row[10]))
+                                    for i in range(len(temp_posture_)):
+                                        fw.write(str(temp_posture_[i]) + ' ')
+                                    fw.write('\n')
+                        else:
+                            print(str(save_file) + " already existed!")
+
 
     # bag --> csv
     def __convert_bag_csv(self):
@@ -73,8 +77,11 @@ class Convert_Mocap_Data(object):
                 if (temp_dir_file_[i].endswith('.bag')):
                     for j in range(len(self.__ros_topic)):
                         save_file = temp_dir_file_[i].split('.')[0] + self.__ros_topic[j].replace('/', '_') + ".csv"
-                        print(save_file)
-                        os.system("rostopic echo -b " + temp_dir_file_[i] + " -p "  + self.__ros_topic[j] + " > " + save_file)
+                        if(not os.path.exists(save_file)):
+                            print(str(save_file) + " convert...")
+                            os.system("rostopic echo -b " + temp_dir_file_[i] + " -p "  + self.__ros_topic[j] + " > " + save_file)
+                        else:
+                            print(str(save_file) + " already existed!")
 
     # ns --> s
     def __convert_time(self, time):
