@@ -8,7 +8,7 @@
  * @brief   std::condition_variable 是为了解决死锁而生的。当互斥操作不够用而引入的。比如，线程可能需要等待某个条件
  *          为真才能继续执行，而一个忙等待循环中可能会导致所有其他线程都无法进入临界区使得条件为真时，就会发生死锁。所以，
  *          condition_variable 实例被创建出现主要就是用于唤醒等待线程从而避免死锁。std::condition_variable的 
- *          notify_one() 用于唤醒一个线程；notify_all() 则是通知所有线程。 
+ *          notify_one() 用于唤醒一个线程；notify_all() 则是通知所有线程,线程竞争锁。 
  */
 int main()
 {
@@ -36,7 +36,10 @@ int main()
             cond_var.notify_one();
         }   
         done = true;
-        cond_var.notify_one();
+        cond_var.notify_all();
+
+        std::cout << "producer thread end\n";
+
     }); 
 
     // 消费者线程
@@ -51,7 +54,10 @@ int main()
                 produced_nums.pop();
             }   
             notified = false;
-        }   
+        }  
+        cond_var.notify_all();
+        std::cout << "consumer thread end\n";
+
     }); 
 
     producer.join();

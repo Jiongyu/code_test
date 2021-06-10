@@ -25,5 +25,6 @@ int main()
     Sample obj;
     auto it = vecOfSamples.begin();
     vecOfSamples.push_back(obj);
+    auto test(obj);
     return 0;
 }
