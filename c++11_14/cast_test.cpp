@@ -99,8 +99,6 @@ void dynamic_cast_test(){
     delete(p6);
 }
 
-
-
 int main(int argc, char const *argv[])
 {
     static_cast_test();

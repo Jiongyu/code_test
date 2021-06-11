@@ -4,7 +4,6 @@
 using namespace std;
 using namespace boost;
 
-
 void scoped_ptr_test(){
     scoped_ptr<int>p1 (new int);
     *p1.get() = 10;

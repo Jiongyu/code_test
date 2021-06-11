@@ -39,6 +39,11 @@ void lambda_test_2(){
         // Can modify the mul inside this lambda function because
         // all outer scope elements has write access here.
         std::cout << x << " ";
+        x+=1;
+    });
+    std::cout << std::endl << std::endl;
+    std::for_each(data.begin(), data.end(), [](int x){
+        std::cout << x << " ";
     });
     std::cout << std::endl << std::endl;
 }
@@ -55,6 +60,11 @@ void lambda_test_3(){
         // Can not modify the mul inside this lambda function because
         // all outer scope elements has read only access here.
         std::cout << x << " ";
+        x+=1;
+    });
+    std::cout << std::endl << std::endl;
+    std::for_each(data.begin(), data.end(), [](int x){
+        std::cout << x << " ";
     });
     std::cout << std::endl << std::endl;
 }
@@ -68,6 +78,11 @@ void lambda_test_1(){
     // lambda express 
     std::for_each(data.begin(), data.end(), [](int x){
         std::cout << x << " ";
+        x+=1;
+    });
+    std::cout << std::endl << std::endl;
+    std::for_each(data.begin(), data.end(), [](int x){
+        std::cout << x << " ";
     });
     std::cout << std::endl << std::endl;
 }
@@ -75,8 +90,8 @@ void lambda_test_1(){
 int main(int argc, char const *argv[])
 {
     display_test_1();
-    lambda_test_2();
     lambda_test_1();
+    lambda_test_2();
     lambda_test_3();
 
     return 0;

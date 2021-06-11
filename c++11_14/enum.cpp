@@ -29,6 +29,11 @@ int main(int argc, char const *argv[])
         std::cout << "new_enum::value3 == new_enum::value4" << std::endl;
     }
 
+    // error
+    if(new_enum::value3 == 100){
+        
+    }
+
     std::cout << new_enum::value3 << std::endl;
 
     return 0;
