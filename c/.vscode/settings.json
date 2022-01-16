@@ -2,6 +2,10 @@
     "files.associations": {
         "*.rst": "xml",
         "stdlib.h": "c",
-        "tuple": "c"
+        "tuple": "c",
+        "atomic": "c",
+        "*.tcc": "c",
+        "fstream": "c",
+        "sstream": "c"
     }
 }

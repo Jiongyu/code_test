@@ -5,7 +5,11 @@ int g_data = 0;
 
  void thread1_func(void *args)
  {
-     int i = 0;
+    int i = 0;
+    int j = 1;
+    unsigned int ii = 0x11111111;
+    unsigned int jj = 0x22222222;
+
      while(i < 2)
      {
          i++;

@@ -67,7 +67,8 @@
         "random": "cpp",
         "asoundlib.h": "c",
         "unistd.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "aes.h": "c"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
