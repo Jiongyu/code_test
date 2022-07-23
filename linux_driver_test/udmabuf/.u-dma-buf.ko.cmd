@@ -1,0 +1,1 @@
+cmd_/mnt/h/learn/ubuntu20/udmabuf/u-dma-buf.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /mnt/h/learn/ubuntu20/udmabuf/u-dma-buf.ko /mnt/h/learn/ubuntu20/udmabuf/u-dma-buf.o /mnt/h/learn/ubuntu20/udmabuf/u-dma-buf.mod.o
