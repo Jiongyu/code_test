@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "H:\\learn\\code\\linux\\kernel_boot_anlysis\\linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek\\include",
+                "H:\\learn\\code\\linux\\kernel_boot_anlysis\\linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek\\arch\\arm\\include",
+                "H:\\learn\\code\\linux\\kernel_boot_anlysis\\linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek\\arch\\arm\\include\\generated",
+                "H:\\learn\\ubuntu20\\open_source_proj\\glibc",
+                "H:\\learn\\ubuntu20\\open_source_proj\\glibc\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

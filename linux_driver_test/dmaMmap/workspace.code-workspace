@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\code\\linux\\kernel_boot_anlysis\\linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"types.h": "c"
+		}
+	}
+}

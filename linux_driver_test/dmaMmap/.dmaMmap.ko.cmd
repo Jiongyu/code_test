@@ -1,0 +1,1 @@
+cmd_/mnt/h/learn/ubuntu20/linux_driver_template/dmaMmap/dmaMmap.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /mnt/h/learn/ubuntu20/linux_driver_template/dmaMmap/dmaMmap.ko /mnt/h/learn/ubuntu20/linux_driver_template/dmaMmap/dmaMmap.o /mnt/h/learn/ubuntu20/linux_driver_template/dmaMmap/dmaMmap.mod.o
