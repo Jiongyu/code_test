@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'h:/learn/ubuntu20/code_test/c'
+make.exe: Leaving directory 'h:/learn/ubuntu20/code_test/c'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+

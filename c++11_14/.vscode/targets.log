@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun 19 17:31:49 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+NVCUDASAMPLES10_2_ROOT = D:\self-installed-software\cuda10_2\samples
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.3.1
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := h:/learn/ubuntu20/code_test/c++11_14
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b475c8051e44470192b4d0d6d26919c5.zh-cn","_translationsConfigFile":"C:\\Users\\Jonyu\\AppData\\Roaming\\Code\\clp\\b475c8051e44470192b4d0d6d26919c5.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\Jonyu\\AppData\\Roaming\\Code\\clp\\b475c8051e44470192b4d0d6d26919c5.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\Jonyu\\AppData\\Roaming\\Code\\clp\\b475c8051e44470192b4d0d6d26919c5.zh-cn\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\Jonyu\\AppData\\Roaming\\Code\\clp\\b475c8051e44470192b4d0d6d26919c5.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;
+# environment
+ONEDRIVE = C:\Users\Jonyu\OneDrive
+# environment
+MAVEN_HOME = D:\self-installed-software\apache-maven-3.3.9
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\Jonyu\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-625803c3-612b-4b15-91dc-5844acc2a4a7-sock
+# environment
+VSCODE_CWD = C:\Users\Jonyu\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Jonyu
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DEVECO STUDIO = C:\Program Files\Huawei\DevEco Studio 2.1.0.501\bin;
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+ANDROID_SDK_HOME = D:\self-installed-software\android_sdk
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_51852_OPAHBURXZBVURCBS
+# environment
+CUDA_PATH_V10_2 = D:\self-installed-software\cuda10_2\cuda_10.2.2_win10
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = JONYU-PC
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = D:\self-installed-software\cuda10_2\samples
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Jonyu
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Jonyu\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\JONYU-PC
+# environment
+PYTHONIOENCODING = UTF8
+# environment
+M2_HOME = D:\self-installed-software\apache-maven-3.3.9
+# environment
+CMAKE_CXX_COMPILER = C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe
+# environment
+ONEDRIVECONSUMER = C:\Users\Jonyu\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = JONYU-PC
+# environment
+GRADLE_USER_HOME = D:\self-installed-software\android_sdk\gradlepro
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\Jonyu\.platformio\python3;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\self-installed-software\cuda10_2\development\bin;D:\self-installed-software\cuda10_2\development\libnvvp;D:\self-installed-software\python2_7\;D:\self-installed-software\python2_7\Scripts\;D:\self-installed-software\python3_8\;D:\self-installed-software\python3_8\Scripts\;C:\self-installed-software\vmware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\self-installed-software\cmake_3_20\bin;C:\Program Files\Java\jdk1.8.0_291;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\ffmpeg\bin;D:\self-installed-software\miktex\miktex\bin\x64\;D:\self-installed-software\matlab_2018b\runtime\win64;D:\self-installed-software\matlab_2018b\bin;D:\self-installed-software\flutter\bin;D:\self-installed-software\android_sdk\platform-tools;D:\self-installed-software\android_sdk\tools;D:\self-installed-software\android_sdk\tools\bin;C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Program Files\Java\jdk1.8.0_291\bin;D:\self-installed-software\android_sdk\platform-tools;C:\Users\Jonyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonyu\AppData\Local\GitHubDesktop\bin;C:\Program Files\Huawei\DevEco Studio 2.1.0.501\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Jonyu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\self-installed-software\cuda10_2\development\bin;D:\self-installed-software\cuda10_2\development\libnvvp;D:\self-installed-software\python2_7\;D:\self-installed-software\python2_7\Scripts\;D:\self-installed-software\python3_8\;D:\self-installed-software\python3_8\Scripts\;C:\self-installed-software\vmware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\self-installed-software\cmake_3_20\bin;C:\Program Files\Java\jdk1.8.0_291;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\ffmpeg\bin;D:\self-installed-software\miktex\miktex\bin\x64\;D:\self-installed-software\matlab_2018b\runtime\win64;D:\self-installed-software\matlab_2018b\bin;D:\self-installed-software\flutter\bin;D:\self-installed-software\android_sdk\platform-tools;D:\self-installed-software\android_sdk\tools;D:\self-installed-software\android_sdk\tools\bin;C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Program Files\Java\jdk1.8.0_291\bin;D:\self-installed-software\android_sdk\platform-tools;C:\Users\Jonyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonyu\AppData\Local\GitHubDesktop\bin;C:\Program Files\Huawei\DevEco Studio 2.1.0.501\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Jonyu\AppData\Local\Programs\Microsoft VS Code\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\self-installed-software\cuda10_2\development\bin;D:\self-installed-software\cuda10_2\development\libnvvp;D:\self-installed-software\python2_7\;D:\self-installed-software\python2_7\Scripts\;D:\self-installed-software\python3_8\;D:\self-installed-software\python3_8\Scripts\;C:\self-installed-software\vmware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\self-installed-software\cmake_3_20\bin;C:\Program Files\Java\jdk1.8.0_291;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\apache-maven-3.3.9\bin;D:\self-installed-software\ffmpeg\bin;D:\self-installed-software\miktex\miktex\bin\x64\;D:\self-installed-software\matlab_2018b\runtime\win64;D:\self-installed-software\matlab_2018b\bin;D:\self-installed-software\flutter\bin;D:\self-installed-software\android_sdk\platform-tools;D:\self-installed-software\android_sdk\tools;D:\self-installed-software\android_sdk\tools\bin;C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Program Files\Java\jdk1.8.0_291\bin;D:\self-installed-software\android_sdk\platform-tools;C:\Users\Jonyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonyu\AppData\Local\GitHubDesktop\bin;C:\Program Files\Huawei\DevEco Studio 2.1.0.501\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Jonyu\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+CC = C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_291
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Jonyu\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b0a847d2017197f569773a9682b052af-1.68.0-main-sock
+# environment
+TEMP = C:\Users\Jonyu\AppData\Local\Temp
+# environment
+HOMEPATH = \Users\Jonyu
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Jonyu\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# environment
+CMAKE_C_COMPILER = C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+CXX = C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = D:\self-installed-software\cuda10_2\development
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e09
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 51852
+# environment
+USERDOMAIN_ROAMINGPROFILE = JONYU-PC
+# variable set hash-table stats:
+# Load=115/1024=11%, Rehash=0, Collisions=19/133=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key h:/learn/ubuntu20/code_test/c++11_14, mtime 1655134428): 71 files, no impossibilities.
+
+# 71 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 78 / storage = 1238 B / avg = 15 B
+# current buf: size = 8162 B / used = 1238 B / count = 78 / avg = 15 B
+
+# strcache performance: lookups = 80 / hit rate = 2%
+# hash-table stats:
+# Load=78/8192=1%, Rehash=0, Collisions=4/80=5%
+# Finished Make data base on Sun Jun 19 17:31:49 2022
+
+ 

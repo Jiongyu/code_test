@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
     else if(0 == pid)
     {
         childpid = getpid();
+        sleep(15);
         printf("child process %d.\n", childpid);
         printf("child process sleep 15s.\n");
         sleep(15);
