@@ -1,0 +1,749 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/jony/software/opencv/opencv_test/bin/ncnn_yolov5_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -g  -O0 -Wall -g2 -ggdb"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/mnt/hgfs/ubuntu20/open_source_proj/ncnn/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/mnt/hgfs/ubuntu20/open_source_proj/ncnn/build-ubuntu/src"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/build"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/hdf/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/intensity_transform/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/ml/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/phase_unwrapping/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/photo/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/plot/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/quality/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/reg/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/surface_matching/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/viz/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/xphoto/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/alphamat/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/dnn/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/dnn_superres/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/freetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/fuzzy/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/hfs/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/img_hash/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/line_descriptor/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/saliency/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/text/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/videoio/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/wechat_qrcode/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/cvv/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/datasets/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/highgui/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/mcc/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/rapid/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/rgbd/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/shape/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/structured_light/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/ts/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/video/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/videostab/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/xfeatures2d/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/ximgproc/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/xobjdetect/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/aruco/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/bgsegm/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/bioinspired/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/ccalib/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/dnn_objdetect/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/dpm/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/face/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/gapi/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/optflow/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv/modules/stitching/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/superres/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/tracking/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/jony/software/opencv/opencv_contrib/modules/stereo/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "ncnn_yolov5_test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g  -O0 -Wall -g2 -ggdb",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/mnt/hgfs/ubuntu20/open_source_proj/ncnn/src",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/mnt/hgfs/ubuntu20/open_source_proj/ncnn/build-ubuntu/src",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/mnt/hgfs/ubuntu20/open_source_proj/ncnn/src:/mnt/hgfs/ubuntu20/open_source_proj/ncnn/build-ubuntu/src:/home/jony/software/opencv/opencv/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_gapi.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_stitching.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_alphamat.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_aruco.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_bgsegm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_bioinspired.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_ccalib.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_cvv.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_dnn_objdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_dnn_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_dpm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_face.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_freetype.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_fuzzy.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_hdf.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_hfs.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_img_hash.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_intensity_transform.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_line_descriptor.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_mcc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_quality.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_rapid.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_reg.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_rgbd.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_saliency.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_stereo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_structured_light.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_surface_matching.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_tracking.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_videostab.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_viz.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_wechat_qrcode.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_xfeatures2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_xobjdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_xphoto.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lncnn",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fopenmp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_shape.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_highgui.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_datasets.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_plot.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_text.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_ml.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_phase_unwrapping.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_optflow.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_ximgproc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_video.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_videoio.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_dnn.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_imgcodecs.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_objdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_calib3d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_features2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_flann.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_photo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_imgproc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jony/software/opencv/opencv/build/lib/libopencv_core.so.4.5.2",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ncnn_yolov5_test",
+	"nameOnDisk" : "ncnn_yolov5_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn_yolov5.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

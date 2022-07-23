@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opencv_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ncnn_yolov5_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ncnn_yolov5_test-Debug-05a53cf98799fc8ea5d3.json",
+					"name" : "ncnn_yolov5_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_camera_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_camera_test-Debug-7fc966d1fa757fa10357.json",
+					"name" : "opencv_camera_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_camera_yolov5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_camera_yolov5-Debug-a8e085c1beb081b6b324.json",
+					"name" : "opencv_camera_yolov5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_test-Debug-26c2eee0206505c24c88.json",
+					"name" : "opencv_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jony/software/opencv/opencv_test/build",
+		"source" : "/home/jony/software/opencv/opencv_test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
