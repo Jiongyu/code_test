@@ -1,5 +1,12 @@
 # add_subdirectory(ffmpeg)
-add_subdirectory(ncnn)
+
 # add_subdirectory(opencv)
-add_subdirectory(spdlog)
+
+if(THIRD_PARTS_NCNN)
+    add_subdirectory(ncnn)
+endif()
+
+if(THIRD_PARTS_SPDLOG)
+    add_subdirectory(spdlog)
+endif()
 # add more library path 

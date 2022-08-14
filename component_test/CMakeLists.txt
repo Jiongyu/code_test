@@ -1,5 +1,6 @@
 include("./config/cmake/compile_env.cmake")
 include("./config/cmake/global_set.cmake")
+include("./config/cmake/config_table.cmake")
 
 # project name
 PROJECT(${project_name})
