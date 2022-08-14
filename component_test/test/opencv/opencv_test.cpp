@@ -5,8 +5,14 @@ using namespace cv;
  
 int main( int argc, char** argv )
 {
+    if(argc < 2)
+    {
+        printf("input error.\n");
+        return -1;
+    }
+
     Mat image;
-    image = imread("../1.png", 1);
+    image = imread(argv[1], 1);
  
     if( argc != 2 || !image.data )
     {
@@ -14,8 +20,8 @@ int main( int argc, char** argv )
         return -1;
     }
 
-    // imshow( "Display Image", image );
-    // waitKey(0);
+    imshow( "Display Image", image );
+    waitKey(0);
  
     return 0;
 }
