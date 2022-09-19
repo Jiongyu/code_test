@@ -119,8 +119,9 @@ int test_module_mmap(struct file *filp, struct vm_area_struct * vmas)
 
     PDEBUG("vmstart:%p, vmend:%p.\n", (void *)vmas->vm_start, (void *)vmas->vm_end);
 
-    ret = remap_pfn_range(vmas, vmas->vm_start,     \
-        virt_to_phys((void*)((unsigned long)dev->bufferArea)) >> PAGE_SHIFT,    \
+    /*创建页表*/
+    ret = remap_pfn_range(vmas, vmas->vm_start,
+        virt_to_phys((void*)((unsigned long)dev->bufferArea)) >> PAGE_SHIFT, // 虚拟地址映射到物理地址的页面号
         vmas->vm_end - vmas->vm_start, PAGE_SHARED);
     if(0 != ret)
     {
@@ -145,7 +146,8 @@ int test_module_mmap(struct file *filp, struct vm_area_struct * vmas)
         return -ENXIO;
     }
 
-    if(vmas->vm_pgoff + vma_pages(vmas) > dev->allocSize >> PAGE_SHIFT)
+    /*mmap 空间大小需小于 允许分配空间大小*/
+    if(vmas->vm_pgoff + vma_pages(vmas) > dev->allocSize >> PAGE_SHIFT)  // 页数量比较
     {
         return -EINVAL;
     }
