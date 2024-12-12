@@ -4,6 +4,11 @@
     gcc ./section_test1.c -T ./section_test1.lds 
 */
 
+/*
+    查看特定段:
+    objdump  -t -j __start_init ./a.out    
+*/
+
 typedef int (*init_fn_t)(void);
 
 /*标记为attribute__((used))的函数被标记在目标文件中，以避免链接器删除未使用的节。*/
@@ -33,6 +38,12 @@ static int test_start_1(void)
 }
 INIT_EXPORT(test_start_1);
 
+static int test_start_3(void)
+{
+    printf("test_start_3\n");
+    return 0;
+}
+INIT_EXPORT(test_start_3);
 
 static int test_start_2(void)
 {
